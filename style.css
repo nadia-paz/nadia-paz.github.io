@@ -4,6 +4,9 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #370308;
     color: #ffffff;
@@ -326,6 +329,11 @@ form btn2{
 .copyright i{
     color: #f10f0f;
 }
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
 
 /* --------------------------
 -------css for small---------
@@ -357,7 +365,8 @@ nav .fa-solid{
         width: 200px;
         height: 100vh;
         padding-top: 50px;
-
+        z-index: 2;
+        transition: right 0.5s;
     }
     nav ul li{
         display: block;
@@ -368,5 +377,27 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
     }
 }
