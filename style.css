@@ -251,6 +251,7 @@ to show text only when hover: change height in layer to 0 and uncomment this blo
 }
 */
 .btn{
+    background: #370308;
     display: block;
     margin: 50px auto;
     width: fit-content;
