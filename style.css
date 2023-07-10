@@ -200,6 +200,7 @@ nav ul a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .work img{
     width: 100%;
